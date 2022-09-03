@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+
+}
+
+
+body {
+
+    font-family: 'Bebas Neue', cursive;
+    background-color: lightgrey;
+    font-style: italic;
+
+}
+
+span {
+
+    color: #a33b44;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+:target {
+
+    scroll-margin-top: 5em; 
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* Corpo */
+
+#button1 {
+
+    background-color: #a33b44;
+}
+
+.produtos {
+
+    margin-top: 30px;
+    text-align: center;
+    color: #043434;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+.produtos a {
+
+    text-decoration: none;
+    color: #043434;
+
+}
+
+.buttons-produtos {
+
+    padding-bottom: 20px;
+}
+
+.produtos button {
+    
+    margin-top: 25px;
+    width: 180px;
+    height: 55px;
+    border: 1px solid gray;
+    border-radius: 5px 5px ;
+    box-shadow: 0 5px 2px -2px gray;
+    color: #043434;
+    cursor: pointer;
+
+}
+
+.produtos button:hover {
+
+    transition: 1s;
+    padding-left: 20px;
+    background-color: #a33b44d8;
+
+}
+
+/* Orçamento */
+
+.informativo-orcamento {
+
+    color: #043434;
+    text-align: center;
+    margin: 30px 0px;
+
+}
+
+.orcamento {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.orcamento a {
+
+    color: #043434;
+    text-decoration: none;
+
+}
+
+.orcamento a:hover {
+
+    color: #a33b44;
+
+}
+
+.orcamento h4 {
+
+    padding-top: 20px;
+
+}
+
+
+.orcamento img {
+
+    height: 70px;
+    width: 70px;
+
+}
+
+/* informação sobre corrimao */
+
+.informativo-corrimao {
+
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #043434;
+    color: #a33b44;
+
+}
+
+.resultado-corrimao {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #043434;
+    color: white;
+
+    
+}
+
+@media (min-width: 601px) {
+
+    .resultado-corrimao div {
+
+        width: 700px;
+    
+    } 
+
+}
+
+@media (max-width: 600px) {
+
+    .resultado-corrimao div {
+
+        width: 100%;
+    
+    }
+}
+
+/* informação sobre instagram */
+
+.informativo-instagram {
+
+    color: #043434;
+    text-align: center;
+    margin: 30px;
+    
+
+}
+
+.instagram {
+
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.instagram img {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+/* Duvidas */
+
+.duvidas {
+
+    font-family: 'Bebas Neue', cursive;
+    color: #043434;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.duvidas h2 {
+
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.duvidas summary {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin: 0px 20px;
+
+}
+
+.duvidas p {
+
+    padding: 0px 30px;
+    max-width: 370px;
+    color: #a33b44;
+
+}
+
+/*  informação */
+
+.informacao {
+
+    background-color: #023333;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.informacao a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.informacao a:hover {
+
+    color: #a33b44;
+
+}
+
+@media (max-width: 595px) {
+
+    .informacao {
+
+        gap: 10px;
+
+    }
+
+    .endereco h4 {
+
+        padding: 5px 20px;
+    
+    }
+
+    .vendedores {
+
+        padding-top: 8px;
+        padding-left: 20px;
+    
+    }
+
+    .horario {
+
+        padding-left: 20px;
+
+    }
+
+
+}
+
+@media (min-width: 596px) {
+
+    .informacao {
+
+        justify-content: center;
+        gap: 35px;
+
+    }
+
+    .endereco h4 {
+
+        padding: 5px 0px;
+        padding-left: 20px;
+    
+    }
+
+    .vendedores {
+
+        padding-top: 8px;
+        margin-bottom: 60px;
+    
+    }
+
+}
+
+.img-vendedores {
+
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.img-vendedores h4 {
+
+    padding-top: 8px;
+    padding-left: 5px;
+
+}
+
+.horario h2 {
+
+    padding-top: 10x;
+    padding-bottom: 10px;
+
+}

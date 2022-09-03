@@ -1,0 +1,457 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    background-color: lightgrey;
+
+}
+
+span {
+
+    color: #a33b44;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Corpo */
+
+.slogam {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 400px;
+    background-color: #023333;
+
+}
+
+.img-slogam {
+
+    margin-top: 40px;
+    height: 250px;
+    background-color: #023333;
+
+}
+
+.slogam img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.produtos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+
+.produtos img {
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.produtos a {
+
+    text-decoration: none;
+    color: #043434;
+
+}
+
+.produtos h2 {
+
+    padding: 2px;
+    margin-bottom: 15px;
+    color: #a33b44;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.produtos h4 {
+
+    padding: 5px;
+    color: #043434;
+    font-size: 1em;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.p1 {
+
+    height: 550px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+    box-shadow: -2px 5px 2px -2px gray;
+    border-radius: 0px 0px 10px 10px;
+
+
+}
+
+.p2 {
+
+    height: 550px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+    box-shadow: -2px 5px 2px -2px gray;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.p3 {
+
+    height: 550px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+    box-shadow: -2px 5px 2px -2px gray;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.img-p1, .img-p2, .img-p3 {
+
+    width: 100%;
+    height: 300px;
+    background-color: #a33b44;
+    margin-bottom: 20px;
+
+}
+
+.produtos button {
+    
+    margin-top: 25px;
+    width: 180px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 5px 5px ;
+    box-shadow: 0 5px 2px -2px gray;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.produtos > .p3 > button {
+
+    margin-top: 80px;
+
+}
+
+.produtos button:hover {
+
+    transition: 1s;
+    padding-left: 20px;
+    background-color: #a33b44d8;
+
+}
+
+
+/* Sobre a empresa */
+
+.sobre {
+
+    border-top: 1px solid rgba(128, 128, 128, 0.911);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.911);
+    padding: 20px 0px;
+    width: 100%;
+    background-color: #043434;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.sobre h2 {
+
+    font-size: 2em;
+    margin: 20px 0px;
+
+}
+
+.txt-sobre {
+
+    width: 500px;
+    padding: 10px;
+
+}
+
+/* Maps */
+
+.informativo-localizacao {
+
+    text-align: center;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #043434;
+
+}
+
+
+.localizacao {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.maps {
+    width: 100%;
+}
+
+/* Meios de contato */
+
+.informativo-contato {
+
+    text-align: center;
+    margin: 30px 0px;
+    color: #043434;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.contato {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+
+}
+
+.contato a {
+
+    text-decoration: none;
+    color: #043434;
+
+}
+
+.contato a:hover {
+
+    text-decoration: none;
+    color: #a33b44;
+
+}
+
+.contato-whatsapp {
+
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid #043434;
+    padding: 5px 0px;
+
+}
+
+.contato-whatsapp h4 {
+
+    padding-top: 5px;
+
+}
+
+.contato-whatsapp img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.contato-instagram {
+    
+    display: flex;
+    border-bottom: 1px solid #043434;
+    padding: 5px 0px;
+}
+
+.contato-instagram h4 {
+
+    padding-top: 5px;
+
+}
+
+.contato-instagram img {
+
+    width: 30px ;
+    height: 30px;
+    padding-right: 5px;
+
+}
+
+.contato-email {
+
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid #043434;
+    padding: 5px;
+
+}
+
+.contato-email img {
+
+    width: 23px;
+    height: 23px;
+
+}
+
+/* Duvidas */
+
+.duvidas {
+
+    font-family: 'Bebas Neue', cursive;
+    color: #043434;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.duvidas h2 {
+
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.duvidas summary {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin: 0px 20px;
+
+}
+
+.duvidas p {
+
+    padding: 0px 30px;
+    max-width: 370px;
+
+}
+
+/*  informação */
+
+.informacao {
+
+    background-color: #023333;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.informacao a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.informacao a:hover {
+
+    color: #a33b44;
+
+}
+
+@media (max-width: 595px) {
+
+    .informacao {
+
+        gap: 10px;
+
+    }
+
+    .endereco h4 {
+
+        padding: 5px 20px;
+    
+    }
+
+    .vendedores {
+
+        padding-top: 8px;
+        padding-left: 20px;
+    
+    }
+
+    .horario {
+
+        padding-left: 20px;
+
+    }
+
+
+}
+
+@media (min-width: 596px) {
+
+    .informacao {
+
+        justify-content: center;
+        gap: 35px;
+
+    }
+
+    .endereco h4 {
+
+        padding: 5px 0px;
+        padding-left: 20px;
+    
+    }
+
+    .vendedores {
+
+        padding-top: 8px;
+        margin-bottom: 60px;
+    
+    }
+
+}
+
+.img-vendedores {
+
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.img-vendedores h4 {
+
+    padding-top: 8px;
+    padding-left: 5px;
+
+}
+
+.horario h2 {
+
+    padding-top: 10x;
+    padding-bottom: 10px;
+
+}
