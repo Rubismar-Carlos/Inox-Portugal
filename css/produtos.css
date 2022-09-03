@@ -9,7 +9,7 @@
 
 body {
 
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Maven Pro', sans-serif;
     background-color: lightgrey;
     font-style: italic;
 
@@ -33,7 +33,7 @@ html {
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 
 /* Corpo */
@@ -205,7 +205,7 @@ html {
 
 .duvidas {
 
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Maven Pro', sans-serif;
     color: #043434;
     margin: 30px 0px;
     display: flex;
